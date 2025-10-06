@@ -1,0 +1,101 @@
+h1{
+    
+    text-align: center;
+    color:bisque
+    
+}
+h2{
+    color:bisque;
+    text-align-last: center;}
+
+h4{
+    color:bisque;
+}
+
+body{
+background-color: rgb(252, 253, 250);
+}
+
+p1{
+    background-color:green ;
+    color:bisque;
+    font-style: oblique;
+    font-size: x-large;
+    align-content: center;
+    
+}
+
+p2{
+    
+    color:bisque;
+    font-style: italic;
+    font-size: medium;
+}
+
+.mokorotlo{
+    height:300px;
+    width:400px;
+    border-radius:50%;
+    border: 10px solid rgb(27, 27, 26);
+    justify-content: center;
+
+   
+}
+.header{
+    text-align:center;
+    margin:30px;
+    font-size:20px;
+}
+div.hero-image{
+    
+    display:flex;
+    justify-content:center;
+    
+}
+        
+
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+nav{
+    background-color:royalblue ;
+    padding:20px;
+  
+}
+
+nav ul{
+    justify-content: center;
+   
+    list-style:none;
+    display:flex;
+    margin-top:8px;
+
+}
+
+nav ul li a{
+    background-color: rgb(40, 22, 58);
+    float:left;
+    text-decoration:dotted;
+    color:rgb(182, 164, 164);
+    border-radius:12px;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    
+}
+
+nav ul a:hover{
+color:rgb(252, 250, 248);
+}
+
+.links{
+    float:left;   
+}
+
+
+.footer{
+    color:rgb(27, 19, 19);
+    text-align: center;
+}

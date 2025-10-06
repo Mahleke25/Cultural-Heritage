@@ -1,0 +1,74 @@
+nav ul{
+   
+    display:flex;
+    justify-content:center;
+
+}
+
+nav ul li a{
+   
+    background-color: rgb(40, 22, 58);
+    float:left;
+    text-decoration:dotted;
+    color:rgb(182, 164, 164);
+    border-radius:12px;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    
+    
+}
+
+nav ul a:hover{
+color:rgb(252, 250, 248);
+}
+
+.links{
+    float:left;   
+}
+
+.header{
+    background-color: royalblue;
+    padding-bottom: 5px;
+    color:bisque;
+    text-justify: center;
+}
+
+
+
+body{
+    background-color:green;
+}
+
+.flex-container{
+    display: flex;
+    background-color: aliceblue;
+}
+.flex-container>div{
+    background-color: rgb(251, 250, 252);
+    margin:auto;
+    padding-left: 5%;
+    font-size: small;
+}
+
+.flex-container2>div{
+    background-color: rgb(246, 239, 252);
+    margin-left: 5%;
+    padding-left: 6%;
+    font-size: small;
+}
+
+section{
+    margin-trim: 15px;
+}
+article{
+    margin-top:15px;
+    padding:10px;
+    background-color: aliceblue;
+    border:5px solid rgb(209, 196, 14);
+}
+
+.footer{
+    color:rgb(240, 232, 232);
+    text-align: center;
+}

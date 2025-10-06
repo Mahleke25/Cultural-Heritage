@@ -1,0 +1,97 @@
+body{
+    background-color:yellow;
+}
+
+h1{
+    float:center;
+}
+
+
+
+nav ul{
+    display: flex;
+    list-style: circle;
+    margin-top: 15px;
+    float: right;
+    text-decoration:none;
+}
+nav ul li a{
+    background-color: rgb(40, 22, 58);
+    float:center;
+    text-decoration:dotted;
+    color:rgb(182, 164, 164);
+    border-radius:12px;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    
+}
+nav ul a:hover{
+    color: rgb(51, 197, 14);
+
+
+}
+
+.flex-container{
+    display: flex;
+    background-color: aliceblue;
+}
+.flex-container>div{
+    background-color: rgb(251, 250, 252);
+    margin:auto;
+    padding-left: 5%;
+    font-size: small;
+    padding-bottom: 15%;
+   
+}
+
+.flex-container2>div{
+    background-color: rgb(246, 239, 252);
+    margin-left: 5%;
+    padding-left: 6%;
+    font-size: small;
+    padding-bottom: 15%;
+
+   
+}
+
+.flex-container3>div{
+
+    background-color: rgb(246, 239, 252);
+    margin-left: 5%;
+    padding-left: 6%;
+    padding-bottom: 15%;
+    font-size: small;
+    padding-bottom: 15%;
+    
+    
+   
+}  
+
+.blankets:hover{
+
+    
+    width: 20%;
+    height: 30%;
+    
+}
+
+.beadwork:hover{
+
+    
+    width: 20%;
+    height: 30%;
+    
+}
+
+.pottery:hover{
+
+    width: 20%;
+    height: 30%;
+    
+}
+
+.footer{
+    color:rgb(27, 19, 19);
+    text-align: center;
+}

@@ -1,0 +1,161 @@
+
+
+
+
+body{
+    background-color: rgb(101, 160, 12);
+    color: bisque;
+       
+}
+nav ul{
+    justify-content: center;
+    list-style:none;
+    display:flex;
+    margin-top:8px;
+
+}
+
+nav ul li a{
+    background-color: rgb(40, 22, 58);
+    float:left;
+    text-decoration:dotted;
+    color:rgb(182, 164, 164);
+    border-radius:12px;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+nav ul a:hover{
+color:rgb(252, 250, 248);
+}
+
+.links{
+    float:left;   
+}
+
+h1{
+    color: bisque;
+    text-align:center;
+    text-decoration:underline rgb(40, 22, 58);
+    
+}
+h2{
+    color: bisque;
+    
+}
+img{
+    border: 2px solid orange;
+    border-radius:8px;
+    width:200px;
+}
+
+
+
+/* Create two equal columns that float next to
+each other */
+.column-2 {
+    float: left;
+    width: 30%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    height: 475px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 70px;
+    background-color:rgb(104, 39, 39);
+
+}
+
+.thethana:hover{
+color:blueviolet;
+    float: left;
+    width: 70%;
+    height: 70%;
+    
+}
+
+.mose-oa-khomo:hover{
+    float:left;
+    width: 50%;
+    height:50%;
+}
+
+.sefatla:hover{
+    float:center;
+    width: 50%;
+    height:50%;
+}
+
+.tshea:hover{
+    float:center;
+    width: 75%;
+    height:75%;
+}
+
+.kholokoane:hover{
+    float:center;
+    width: 75%;
+    height:75%;
+    
+}
+
+.letata:hover{
+    float:center;
+    width: 75%;
+    height:75%;
+}
+
+
+.flex-container{
+    display:flex;
+    background-color: rgb(242, 247, 253);
+}
+.flex-container>div{
+    background-color: royalblue;
+    margin: 6px;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.flex-container2{
+    display:flex;
+    background-color: rgb(238, 243, 248);
+
+}
+
+.flex-container2>div{
+
+    background-color: royalblue;
+    margin: 6px;
+    padding: 4px;
+    font-size: 20px;}
+
+.flex-container3>div{
+
+    background-color: royalblue;
+    margin: 6px;
+    padding: 4px;
+    font-size: 20px;
+    float:center;
+}
+
+.flex-container4>div{
+
+    background-color: royalblue;
+    margin: 6px;
+    padding: 4px;
+    font-size: 20px;
+    float:center;
+}
+
+.footer{
+    color:rgb(27, 19, 19);
+    text-align: center;
+}
+
+
+
+
+
